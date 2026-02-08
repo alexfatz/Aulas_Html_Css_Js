@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Cadastro</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>
+            Bem vindo ao formulário de cadastro do nosso site
+        </h1>
+        <p>Digite suas informações abaixo:</p>
+    </header>
+
+    <main>
+        <section>
+            <form action="cadastro_sucesso.html">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Opção</th>
+                            <th>Valor</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                <label for="nome">Nome:</label>
+                            </td>
+                            <td>
+                                <input type="text" name="nome" placeholder="Digite seu nome completo" required>
+                            </td>
+    
+                        </tr>
+                        <tr>
+                            <td>
+                                <label for="email">Digite seu email completo</label>
+                            </td>
+                            <input type="email" name="email" id="email" required>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label for="senha">Digite uma senha</label>
+                            </td>
+                            <td>
+                                <input type="password" name="senha" id="senha" required>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label for="senha-confirmar">Confirme a senha</label>
+                            </td>
+                            <td>
+                                <input type="password" name="senha-confirmar" id="senha-confirmar" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="data-nascimento">Digite a data do seu nascimento</label>
+                            </td>
+                            <td>
+                                <input type="date" name="data-nascimento" id="data-nascimento" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="idade">Digite sua idade</label>
+                            </td>
+
+                            <td>
+                                <input type="number" name="idade" id="idade" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="telefone">Digite seu telefone</label>
+                            </td>
+
+                            <td>
+                                <input type="tel" name="telefone" id="telefone" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="genero">Qual seu sexo?</label><br>
+                            </td>
+                            <td>
+                                <input type="radio" name="genero" value="m" id="genero">Masculino<br>
+                                <input type="radio" name="genero" value="f">Feminino</br>
+                                <input type="radio" name="genero" value="o">Outro
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label for="interesses">Quais seus interesses?</label><br>
+                            </td>
+                            <td>
+                                <input type="checkbox" name="interesses" id="interesses" value="Tecnologia">Tecnologia<br>
+                                <input type="checkbox" name="interesses" value="Jogos">Jogos<br>
+                                <input type="checkbox" name="interesses" value="Música">Música<br>
+                                <input type="checkbox" name="interesses" value="Filmes">Filmes<br>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label for="favorite-color">Qual sua cor favorita?</label>
+                            </td>
+
+                            <td>
+                                <input type="color" name="favorite-color" id="favorite-color"><br>
+                            </td>
+                        </tr>
+                        
+                        <tr>
+                            <td>
+                                <label for="satisfacao">Nível de satisfacao</label>
+                            </td>
+                            <td>
+                                <input type="range" name="satisfacao" id="satisfacao" min="0" max="10">
+                            </td>
+
+                        </tr>
+
+                        <tr>
+                            <td>   
+                                <label for="pais">Qual seu Pais de Origem?</label>
+                            </td>
+                            <td>
+                                <select name="pais" id="pais">
+                                    <option value="Brasil">Brasil</option>
+                                    <option value="Argentina">Argentina</option>
+                                    <option value="Chile">Chile</option>
+                                    <option value="Paraguai">Paraguai</option>
+                                    <option value="Uruguai">Uruguai</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="estado">Qual seu estado?</label>
+                            </td>
+
+                            <td>
+                                <select name="estado" id="estado">
+                                    <option value="MG">MG</option>
+                                    <option value="SP">SP</option>
+                                    <option value="RJ">RJ</option>
+                                </select>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <label for="arquivo">Envie seu RG</label>
+                            </td>
+                            <td>
+                                <input type="file" name="arquivo" id="arquivo" required>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>Termos<br>de uso:</td>
+
+                            <td>
+                                <input type="checkbox" name="termos" required>
+                                <a href="termos.html" target="_blank">Veja os termos</a>
+                            </td>
+                        </tr>
+
+                        <tr>
+                            <td>
+                                <button type="submit">Cadastrar</button>
+                            </td>
+
+                            <td>
+                                <button>Reset</button>
+                            </td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="2">Bem vindo ao nosso site.</td>
+                        </tr>
+                    </tfoot>
+                </table>
+
+
+
+
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>Todos os direitos estão reservados pelo site.</p>
+    </footer>
+    
+</body>
+</html>
