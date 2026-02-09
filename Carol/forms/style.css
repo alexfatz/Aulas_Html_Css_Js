@@ -65,7 +65,7 @@ input[type="text"], input[type="password"], input[type="date"] {
 }
 
 input[type="date"]::-webkit-calendar-picker-indicator {
-  transform: scale(1.5);
+    transform: scale(1.5);
 }
 
 input::placeholder {
@@ -135,7 +135,6 @@ fieldset label, fieldset input {
 
 footer {
     text-align: center;
-    opacity: 0.75;
 }
 
 footer a {

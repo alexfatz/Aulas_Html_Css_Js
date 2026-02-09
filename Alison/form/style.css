@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Caveat", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    color: #463541;
+}
+
+header {
+    padding: 3rem;
+    color: #f097c0;
+    background-color: #775b72;
+    border: 0.2rem outset #f097c0;
+    border-bottom: 0.3rem dashed #ffe5f0;
+    text-align: center;
+    text-shadow: #463541 -0.2rem 0.2rem 0.15rem;
+}
+
+h1 {
+    font-size: 3.5rem;
+}
+
+header p {
+    font-size: 3rem;
+}
+
+main {
+    background-color: #ffe5f0;
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    font-size: 2rem;
+}
+
+main section {
+    border: #463541 dashed 0.3rem;
+    padding: 1.5rem;
+}
+
+table {
+    margin: auto;
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 2rem;
+}
+
+
+thead {
+    text-align: left;
+    font-size: 2.5rem;
+}
+
+tbody {
+    text-align: left;
+    
+}
+
+input[type="submit"], input[type="text"], input[type="password"], input[type="email"], input[type="date"], input[type="number"], input[type="tel"], input[type="file"], select {
+    padding: 0.5rem;
+    border: 0.2rem solid #463541;
+    border-radius: 100rem;
+    background-color: #fff1f7;
+    color: #463541;
+    font-size: 1rem;
+    outline-color: #463541;
+    width: 50%;
+    cursor: pointer;
+    text-align: center;
+}
+
+input[type="date"]::-webkit-calendar-picker-indicator {
+    cursor: pointer;
+}
+
+input[type="text"]::placeholder {
+    color: #775b72;
+}
+
+input[type="color"]{
+    cursor: pointer;
+    border: 0.2rem solid #463541;
+    border-radius: 100rem;
+    border-style: dashed;
+    background-color: transparent;
+    width: 5rem;
+    height: 5rem;
+    vertical-align: center;
+    margin-left: 1rem;
+}
+
+/* Chrome/Edge */
+input[type="color"]::-webkit-color-swatch {
+  border: none;
+  border-radius: 100rem;
+}
+
+/* Firefox */
+input[type="color"]::-moz-color-swatch {
+  border: none;
+  border-radius: 100rem;
+}
+
+input[type="range"]{
+    cursor: pointer;
+    accent-color: #f097c0;
+    margin-right: 1.5rem;
+    transform: scale(1.5);
+    margin-left: 2rem;
+}
+
+input[type="radio"], input[type="checkbox"]{
+    cursor: pointer;
+    accent-color: #f097c0;
+    transform: scale(1.5);
+    margin-right: 1.5rem;
+}
+
+button {
+    border-radius: 100rem;
+    border: 0.2rem solid #463541;
+    background-color: #f097c0;
+    padding: 1.5rem;
+    cursor: pointer;
+    color: #463541;
+    width: 15rem;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
+tfoot tr td {
+    padding-top: 1.5rem;
+    color: #463541;
+    text-align: center;
+}
+
+td a {
+    text-decoration: none;
+    color: #463541;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5rem;
+    opacity: 0.8;
+    padding: 2rem;
+    background-color: #775b72;
+    color: #ffe5f0;
+}
