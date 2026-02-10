@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Pixelify+Sans:wght@400..700&family=Press+Start+2P&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Press Start 2P", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.65rem;
+    background: linear-gradient(#0087b8, #1599ba, #2aabbd, #40bebf, #55d0c2, #6ae2c4);
+    text-shadow: -0.2rem 0.2rem 0.1rem rgba(0, 12, 121, 0.20);
+}
+
+header {
+    text-align: center;
+}
+
+header figure {
+    padding: 3rem;
+    transform: scale(1.50);
+}
+
+img {
+    box-shadow: -0.3rem 0.3rem 0.1rem rgba(0, 12, 121, 0.35);
+}
+
+main, li figure {
+    padding: 1.5rem;
+}
+
+fieldset {
+    border: #642602 solid 0.3rem;
+    box-shadow: -0.3rem 0.3rem 0.1rem rgba(0, 12, 121, 0.35);
+}
+
+legend {
+    text-align: center;
+    font-size: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    color: #ebb000;
+}
+
+ol {
+    padding: 1.5rem;
+    margin-left: 4rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+ul li h3 {
+    margin-left: -0.8rem;
+}
+
+
+figcaption {
+    padding-top: 1.5rem;
+}
+
+h1 {
+    font-size: 1.2rem;
+    padding: 1.5rem;
+    color: #ebb000;
+}
+
+h2 {
+    font-size: 0.80rem;
+    padding: 1.5rem;
+    color: #f1f5fc;
+}
+
+h3 {
+    padding: 1rem;
+    color: #f1f5fc;
+}
+
+label {
+    padding: 1rem;
+    line-height: 1.5rem;
+    color: #ff9de7;
+}
+
+p {
+    padding: 1rem;
+    color: #97ec5e;
+}
+
+a {
+    color: #f1f5fc;
+    text-decoration: none;
+}
+
+input[type="text"], input[type="email"], input[type="password"], select, input[type="date"] {
+    padding: 0.75rem;
+    margin-bottom: 1rem;
+    border: 0.2rem solid #642602;
+    background-color: #f8f8ff;
+    color: #505050;
+    font-size: 0.75rem;
+    display: block;
+    box-shadow: -0.3rem 0.3rem 0.1rem rgba(0, 12, 121, 0.35);
+    font-family: "Press Start 2P", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.6rem;
+    cursor: pointer;
+}
+
+input[type="checkbox"], input[type="radio"] {
+    accent-color: #ebb000;
+    cursor: pointer;
+    transform: scale(1.5);
+    margin-right: 0.5rem;
+}
+
+input[type="file"]{
+    cursor: pointer;
+    padding: 0.5rem;
+    border: 0.2rem solid #642602;
+    background-color: #f8f8ff;
+    color: #505050;
+    outline-color: #c99b81;
+    width: 25%;
+    font-family: "Press Start 2P", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.6rem;
+    margin: 1rem;
+}
+
+input:focus{
+    border: none;
+    outline: 0.2rem solid #ebb000;
+}
+
+input::placeholder {
+    font-family: "Press Start 2P", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.6rem;
+}
+
+table {
+    border-collapse: collapse;
+    box-shadow: -0.3rem 0.3rem 0.1rem rgba(0, 12, 121, 0.35);
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+th, tr, td, tfoot {
+    padding: 1.5rem;
+    border: #642602 solid 0.3rem;
+    text-align: center;
+}
+
+th {
+    color: #f1f5fc;
+    font-size: 0.7rem;
+}
+
+td {
+    color: #ff9de7;
+}
+
+textarea {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 0.75rem;
+    border: 0.2rem solid #642602;
+    background-color: #f8f8ff;
+    color: #505050;
+    font-size: 0.75rem;
+    box-shadow: -0.3rem 0.3rem 0.1rem rgba(0, 12, 121, 0.35);
+    font-family: "Press Start 2P", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 0.6rem;
+    cursor: pointer;
+    resize: none;
+}
+
+button {
+    cursor: pointer;
+    padding: 0.75rem;
+    border: 0.2rem solid #642602;
+    background-color: #974c20;
+    color: #ffc000;
+    font-size: 0.75rem;
+    display: block;
+    margin: auto;
+    margin-top: 2rem;
+    box-shadow: -0.3rem 0.3rem 0.1rem rgba(0, 12, 121, 0.35);
+    font-family: "Press Start 2P", cursive;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+}
+
+footer{
+    text-align: center;
+    padding-bottom: 1rem;
+    line-height: 1.5rem;
+}
+
+details {
+    background: #f8f8ff;
+    padding: 1.5rem;
+    width: 50%;
+    margin-left: 1.5rem;
+    border: 0.2rem solid #642602;
+    cursor: pointer;
+    box-shadow: -0.3rem 0.3rem 0.1rem rgba(0, 12, 121, 0.35);
+}
+
+summary {
+    color: #505050;
+    text-indent: 1.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 0.25rem;
+}
+
+details p {
+    color: #505050;
+    line-height: 1.5rem;
+    padding-top: 2rem;
+    padding-left: 3rem;
+    text-align: left;
+}
+
+footer p {
+    color: #0c0c0c;
+}
