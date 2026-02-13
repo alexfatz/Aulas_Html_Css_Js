@@ -19,7 +19,7 @@
     </header>
     <main>
         <section> <!--Perguntas-->
-            <form>
+            <form onsubmit="return false">
                 <fieldset>
                     <legend>Questionário</legend>
                     <ol>
@@ -140,7 +140,7 @@
                         </li>
                     </ol>
                 </fieldset>
-                <button type="submit">Enviar formulário</button>
+                <button type="submit" onclick="coletar_respostas()">Enviar formulário</button>
             </form>
         </section>
         <section> <!--Gabarito-->
@@ -150,11 +150,7 @@
                     <summary>
                         Clique aqui para revelar o gabarito
                     </summary>
-                    <p>
-                        1 - 2016 <br>
-                        3 - Abc123!@# <br>
-                        5 - Lewis <br>
-                        8 - Fazenda entre riachos <br>
+                    <p id="p-gabarito">
                     </p>
                 </details>
             </p>
@@ -166,5 +162,6 @@
             <br> <em>Desenvolvido por Fatz &copy;</em>
         </p>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
