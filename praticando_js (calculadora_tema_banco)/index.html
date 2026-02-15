@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praticando Js - Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <figure onclick="mudarTema()">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSgc1ifLTcnNZlYqp48K9smqAEyvd7ErFqYMQ&s" alt="logo tema escuro">
+        </figure>
+        <h1>Calculadora</h1>
+        <hr>
+    </header>
+    <main>
+        <section class="calculadora-container">
+            <table class="calculadora-table">
+                <thead>
+                    <tr>
+                        <th id="calculadora-display" colspan="4">0</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>
+                            <button onclick="adicionarOperador('+')">+</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarOperador('-')">-</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarOperador('*')">x</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarOperador('/')">&divide;</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="adicionarNumero('7')">7</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('8')">8</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('9')">9</button>
+                        </td>
+                        <td>
+                            <button onclick="limpar()">C</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="adicionarNumero('4')">4</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('5')">5</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('6')">6</button>
+                        </td>
+                        <td>
+                            <button onclick="porcentagem()">%</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="adicionarNumero('1')">1</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('2')">2</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('3')">3</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('.')">,</button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button onclick="negativar()">&plusmn;</button>
+                        </td>
+                        <td>
+                            <button onclick="adicionarNumero('0')">0</button>
+                        </td>
+                        <td colspan="2" id="resultado-btn">
+                            <button onclick="resultado()">=</button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <p>&copy; Todos os direitos reservados</p>
+    </footer>
+    <script src="calculadora.js"></script>
+    <script src="tema.js"></script>
+</body>
+</html>
